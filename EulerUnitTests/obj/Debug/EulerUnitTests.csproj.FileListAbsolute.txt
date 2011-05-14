@@ -1,0 +1,7 @@
+c:\users\eric\documents\visual studio 2010\Projects\Euler\EulerUnitTests\bin\Debug\EulerUnitTests.dll
+c:\users\eric\documents\visual studio 2010\Projects\Euler\EulerUnitTests\bin\Debug\EulerUnitTests.pdb
+c:\users\eric\documents\visual studio 2010\Projects\Euler\EulerUnitTests\bin\Debug\Euler.exe
+c:\users\eric\documents\visual studio 2010\Projects\Euler\EulerUnitTests\bin\Debug\Euler.pdb
+c:\users\eric\documents\visual studio 2010\Projects\Euler\EulerUnitTests\obj\Debug\ResolveAssemblyReference.cache
+c:\users\eric\documents\visual studio 2010\Projects\Euler\EulerUnitTests\obj\Debug\EulerUnitTests.dll
+c:\users\eric\documents\visual studio 2010\Projects\Euler\EulerUnitTests\obj\Debug\EulerUnitTests.pdb

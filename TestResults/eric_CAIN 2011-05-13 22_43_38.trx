@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b69f703e-a77a-4f8b-8354-b7dc3567f5d3" name="eric@CAIN 2011-05-13 22:43:38" runUser="CAIN\eric" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="86b8f4f7-c15f-40b5-9cbf-ba30b338f486">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="eric_CAIN 2011-05-13 22_43_38">
+      <DeploymentItem filename="c:\users\eric\documents\visual studio 2010\Projects\Euler\Euler\bin\Debug\Euler.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-05-13T22:43:38.9017389-04:00" queuing="2011-05-13T22:43:42.6319522-04:00" start="2011-05-13T22:43:42.7589595-04:00" finish="2011-05-13T22:43:45.2231004-04:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="SumTheMultiplesOf3And5Test" storage="c:\users\eric\documents\visual studio 2010\projects\euler\eulerunittests\bin\debug\eulerunittests.dll" id="17007d1b-b16e-ce2a-fd7e-54baaa28ee7e">
+      <Execution id="5dcd32db-6bec-485f-9230-fce871e468d2" />
+      <TestMethod codeBase="c:/users/eric/documents/visual studio 2010/Projects/Euler/EulerUnitTests/bin/Debug/EulerUnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EulerUnitTests.Problem1Test, EulerUnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SumTheMultiplesOf3And5Test" />
+    </UnitTest>
+    <UnitTest name="SumTheMultiplesOf3And5PerformanceTest" storage="c:\users\eric\documents\visual studio 2010\projects\euler\eulerunittests\bin\debug\eulerunittests.dll" id="526fc766-b553-1304-3a5a-ebe24ccae03b">
+      <Execution id="046fe74b-ad8a-4b15-a633-6274f11be712" />
+      <TestMethod codeBase="c:/users/eric/documents/visual studio 2010/Projects/Euler/EulerUnitTests/bin/Debug/EulerUnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EulerUnitTests.Problem1Test, EulerUnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SumTheMultiplesOf3And5PerformanceTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="17007d1b-b16e-ce2a-fd7e-54baaa28ee7e" executionId="5dcd32db-6bec-485f-9230-fce871e468d2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="526fc766-b553-1304-3a5a-ebe24ccae03b" executionId="046fe74b-ad8a-4b15-a633-6274f11be712" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="5dcd32db-6bec-485f-9230-fce871e468d2" testId="17007d1b-b16e-ce2a-fd7e-54baaa28ee7e" testName="SumTheMultiplesOf3And5Test" computerName="CAIN" duration="00:00:00.0482198" startTime="2011-05-13T22:43:42.8599653-04:00" endTime="2011-05-13T22:43:44.9020821-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5dcd32db-6bec-485f-9230-fce871e468d2">
+    </UnitTestResult>
+    <UnitTestResult executionId="046fe74b-ad8a-4b15-a633-6274f11be712" testId="526fc766-b553-1304-3a5a-ebe24ccae03b" testName="SumTheMultiplesOf3And5PerformanceTest" computerName="CAIN" duration="00:00:00.0007215" startTime="2011-05-13T22:43:44.9340839-04:00" endTime="2011-05-13T22:43:44.9650857-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="046fe74b-ad8a-4b15-a633-6274f11be712">
+    </UnitTestResult>
+  </Results>
+</TestRun>
