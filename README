@@ -1,0 +1,6 @@
+Euler
+
+These are my solutions to some of the problems from Project Euler (projecteuler.net).  It's written in C#, and I've included some unit tests and performance comparisons.
+
+Problems Completed:
+ 1 - sum multiples of 3 and 5 up to 1000
