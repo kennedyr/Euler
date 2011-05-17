@@ -90,5 +90,18 @@ namespace EulerUnitTests
             sw.Stop();
             Assert.IsTrue(sw.Elapsed.TotalMilliseconds < time_limit);
         }
+        /// <summary>
+        ///Test my Math
+        ///</summary>
+        [TestMethod()]
+        public void SumTheMultiplesOf3And5_MathematicallyTest()
+        {
+            int limit = 1000;
+            Assert.AreEqual(Problem1.SumMultiplesOf_Mathematically(limit, 3), Problem1.SumMultiplesOf(limit, 3));
+            Assert.AreEqual(Problem1.SumMultiplesOf_Mathematically(limit, 5), Problem1.SumMultiplesOf(limit, 5));
+            Assert.AreEqual(Problem1.SumMultiplesOf_Mathematically(limit, 15), Problem1.SumMultiplesOf(limit, 15));
+        
+        }
+    
     }
 }

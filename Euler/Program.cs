@@ -11,15 +11,23 @@ namespace Euler
         static void Main(string[] args)
         {
 
-            Stopwatch sw = Stopwatch.StartNew();
+            Stopwatch sw = new Stopwatch();
 
+            sw.Start();
             Console.WriteLine( Problem1.SumTheMultiplesOf3And5(1000) );
-
             sw.Stop();
-
             Console.WriteLine("Time used (float): {0} ms", sw.Elapsed.TotalMilliseconds);
-            Console.WriteLine("Time used (rounded): {0} ms", sw.ElapsedMilliseconds);
-            
+
+            sw.Restart();
+            Console.WriteLine(Problem1.SumTheMultiplesOf3And5_Optimized(1000));
+            sw.Stop();
+            Console.WriteLine("Time used (float): {0} ms", sw.Elapsed.TotalMilliseconds);
+
+            sw.Restart();
+            Console.WriteLine(Problem1.SumTheMultiplesOf3And5_Mathematically(1000));
+            sw.Stop();
+            Console.WriteLine("Time used (float): {0} ms", sw.Elapsed.TotalMilliseconds);
+
         }
     }
 }
