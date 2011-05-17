@@ -1,4 +1,7 @@
 Euler/bin/
+EulerUnitTests/bin/
+Euler/obj/
+EulerUnitTests/obj/
 TestResults/
 
 # Compiled source #
